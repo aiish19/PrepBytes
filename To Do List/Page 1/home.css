@@ -1,4 +1,4 @@
-/* body{
+body{
   font-family: "Roboto", sans-serif;
 }
 p{
@@ -84,8 +84,10 @@ hr{
   position: absolute;
   left: 45px;
   top: 164px;
-} */
+} 
 
+
+/*mobileview styling*/
 @media screen and (min-width:320px) and (max-width: 480px){
   body{
     font-family: "Roboto", sans-serif;
