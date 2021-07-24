@@ -19,7 +19,7 @@
     }
     .fa{
       color: #e74c3c;
-      margin-left: 45px;
+      margin-left: 55px;
       }
     .mobile-card-container{
       margin-top: 30px;  
@@ -35,12 +35,11 @@
         box-shadow: 6px 5px 5px #201f1f29;
     }
     .mobile-card-title{
-        margin-top: 22px;
+        margin-top: 23px;
         margin-left: 15px;
         font-family: "Roboto", sans-serif;
         color: rgba(156, 154, 154, 0.918);
         font-size: 20px;
-        letter-spacing: -1px;
         word-spacing: 1px;
     }
     .mobile-card-spacing{
