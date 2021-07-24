@@ -1,0 +1,70 @@
+@media screen and (min-width:320px) and (max-width: 480px){
+    body{
+        font-family: "Roboto", sans-serif;
+    }
+    .mobile-background-image {
+        position: fixed;
+        display: block;
+        background-image: url('../Page 2 Mobile View/list-snapshot.png');
+        width: 100%;
+        height: 100%; 
+        filter: blur(10px);
+        background-size: 355px 640px;
+        background-repeat: no-repeat;
+        background-position: center;
+        top: 0px;
+    }
+    .mobile-card-container {
+        margin-top: 73%;
+        text-align: center; 
+    }
+    .mobile-card{
+        width: 310px;
+        height: 180px;
+        display: inline-block;
+        border-radius: 10px;
+        border: 1.5px solid #ff0000;
+        position: relative;
+        box-shadow: 9px 10px 7px #00000029;
+        background-color: white;
+    }
+    .mobile-card-title{
+        margin-top: 30px;
+        align-items: center;
+        color:#f24938;
+        font-size: 21px;
+        text-align: center;
+        font-weight: 500;
+    } 
+    .mobile-sub-card-container {
+        margin-top: 13px;
+        text-align: center; 
+    }
+    .mobile-sub-card{
+        width: 200px;
+        height: 33px;
+        display: inline-block;
+        border-radius: 5px;
+        border: 1.5px solid #e24432f8;
+        position: relative;
+        box-shadow: 3px 3px 3px #201f1f29;
+        background-color: white;
+    }
+    .mobile-add-container{
+        margin-top: 8px;
+        text-align: center; 
+        width: 95px;
+        height: 37px;
+        display: inline-block;
+        border-radius: 20px;
+        position: relative;
+        background-color:#e24432f8;
+    }
+    .mobile-add{
+        color: white;
+        font-size: 18px;
+        margin-top: 9px;
+        letter-spacing: 1px;
+        text-align: center; 
+    }
+}
