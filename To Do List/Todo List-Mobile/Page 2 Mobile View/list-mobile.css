@@ -1,0 +1,77 @@
+@media screen and (min-width:320px) and (max-width: 480px){
+    body{
+        font-family: "Roboto", sans-serif;
+    }
+    .mobile-heading{
+        margin-top: 50px;
+    }
+    .mobile-heading-text{
+        font-weight: bold;
+        font-size: 35px;
+        letter-spacing: -1px;
+        margin-left: 20px;
+    }
+    .fa{
+        color: #e74c3c;
+        margin-left: 20px;
+    }
+    .mobile-card-container{
+        margin-top: 65px;
+        position: relative;
+        text-align: center;
+    }
+    .mobile-card{
+        display: inline-block;
+        width: 260px;
+        height: 385px;
+        border-radius: 9px;
+        border: 2px solid #f19287;
+        position: relative;
+        box-shadow: 10px 10px 10px #00000029;
+    }
+    .mobile-card-title{
+        margin-top: 35px;
+        align-items: center;
+        color: #f16354;
+        font-size: 28px;
+        text-align: center;
+        letter-spacing: -1px;
+        word-spacing: 1px;
+    }
+    hr{
+        margin-top: 15px;
+        max-width: 74%;
+        margin-right:0%;
+        height: 1px;
+        background-color: rgb(102, 102, 102);
+    }
+    .mobile-striked-word{
+        text-decoration: line-through;
+        text-decoration-thickness: 15%;
+        color: #e74c3c;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: "Roboto", sans-serif;
+        margin-top: 35px;
+    }
+    .mobile-check{
+        margin-top: 23px;
+        width: 22px;
+        height: 18px;
+        position: absolute;
+        left: 31px;
+    }
+    .mobile-pending-task{
+        font-size: 21px;
+        position: absolute;
+        left: 64px;
+        top: 163px;
+        letter-spacing: -1px;
+        color: rgb(31, 30, 30);
+    }
+    .mobile-add{
+        position: absolute;
+        bottom: 15px;
+        right: 15px;
+    }
+}
