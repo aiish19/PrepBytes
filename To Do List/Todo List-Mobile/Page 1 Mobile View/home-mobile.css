@@ -1,0 +1,51 @@
+@media screen and (min-width:320px) and (max-width: 480px){
+    body{
+      font-family: "Roboto", sans-serif;
+    }
+    .mobile-task-list{
+      margin-top: 20px;
+      margin-left: 8px;
+    }
+    .mobile-heading-bold{
+      font-weight: bold;
+      font-size: 45px;
+    }
+    .mobile-heading-thin{
+      word-spacing: -15px;
+      font-family: 'Microsoft Yi Baiti';
+      font-weight:100;
+      font-size: 55px;
+      color: rgba(128, 128, 128, 0.918);
+    }
+    .fa{
+      color: #e74c3c;
+      margin-left: 45px;
+      }
+    .mobile-card-container{
+      margin-top: 30px;  
+    }
+    .mobile-card{
+        margin-left: 10px;
+        display: inline-block;
+        width: 300px;
+        height: 63px;
+        border-radius: 7px;
+        border: 1px solid #ffbbb4;
+        position: relative;
+        box-shadow: 6px 5px 5px #201f1f29;
+    }
+    .mobile-card-title{
+        margin-top: 22px;
+        margin-left: 15px;
+        font-family: "Roboto", sans-serif;
+        color: rgba(156, 154, 154, 0.918);
+        font-size: 20px;
+        letter-spacing: -1px;
+        word-spacing: 1px;
+    }
+    .mobile-card-spacing{
+      margin-top:29px;
+    }  
+  
+  }
+  
